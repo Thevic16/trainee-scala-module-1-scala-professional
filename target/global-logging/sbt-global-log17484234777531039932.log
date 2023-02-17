@@ -1,0 +1,65 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(7a11953b-ef71-428f-9317-0f09bc9800e2), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/victor/Documents/1-Software-Development/trainee_program_scala/1-scala_professional/1-initial_setup/LSL-P-lightbend-scala-language-professional/exercises/exercises/target/scala-2.13/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJourneyPlannerSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mstations[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be initialized correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling trainsAt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct trains[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling stopsAt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct stops[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling isShortTrip[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false for more than one station in between[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return true for zero or one stations in between[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTrainSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTrain ice724[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should stop in Nurember[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not stop in Essen[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTrain ice726[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should stop in Munich[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not stop in Cologne[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreating a Train[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an IllegalArgumentException for a schedule with 0 or 1 elements[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mstations[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be initialized correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTimeSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling fromJson[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return None for an invalid JSON object[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return Some wrapping a properly initialized Time for a valid JSON object *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  None did not equal Some(09:30) (TimeSpec.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  None$(value: -> 09:30)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return Some wrapping a properly initialized Time for a valid JSON object with hours only *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  None did not equal Some(09:00) (TimeSpec.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  None$(value: -> 09:00)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling fromJson after toJson[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return Some wrapping the original Time *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  None did not equal Some(09:30) (TimeSpec.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  None$(value: -> 09:30)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreating a Time[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an IllegalArgumentException for hours not within 0 and 23[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an IllegalArgumentException for minutes not within 0 and 59[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe default arguments for hours and minutes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be equal to 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32masMinutes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be initialized correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling minus or -[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct difference in minutes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling toString[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a properly formatted string representation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling Ordered operators[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 834 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 22[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 19, failed 3, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 3 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	com.lightbend.training.scalatrain.TimeSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 6 s, completed Jul 20, 2022, 11:40:17 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

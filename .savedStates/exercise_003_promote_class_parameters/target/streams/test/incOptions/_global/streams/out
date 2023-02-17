@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/victor/Documents/1-Software-Development/trainee_program_scala/1-scala_professional/1-initial_setup/LSL-P-lightbend-scala-language-professional/exercises/exercises/target/scala-2.13/test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Trivial.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/victor/Documents/1-Software-Development/trainee_program_scala/1-scala_professional/1-initial_setup/LSL-P-lightbend-scala-language-professional/exercises/exercises/target/scala-2.13/test-classes.bak[0m

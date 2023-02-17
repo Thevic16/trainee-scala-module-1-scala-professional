@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/victor/Documents/1-Software-Development/trainee_program_scala/1-scala_professional/1-initial_setup/LSL-P-lightbend-scala-language-professional/exercises/exercises/src/main/scala/com/lightbend/training/scalatrain/Time.scala:58:38: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : None.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m      Some(Time(parseHours.getOrElse(None), parseMinutes))[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
